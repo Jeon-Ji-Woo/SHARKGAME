@@ -83,6 +83,7 @@ void board_printBoardStatus(void)
     {
         printf("|");
         if (board_status[i] == BOARDSTATUS_NOK)
+            //printf("%c", player_name[0]);
             printf("X");
         else
             printf("O");

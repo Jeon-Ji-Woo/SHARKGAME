@@ -87,6 +87,7 @@ void printPlayerStatus(void)
             player_position[i],
             player_coin[i],
             player_statusString[player_status[i]]);
+        printPlayerPosition(i);
     }
     printf("-------------------------------\n\n");
 }
